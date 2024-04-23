@@ -26,7 +26,8 @@ public class Main {
                 for(i=0;i<size;i++)
                 {
                         System.out.print(arr[i]+" ");
-                    System.out.println("Done! ");
+                    
                 }
+    System.out.println("Done! ");
     }
 }
