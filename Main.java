@@ -1,4 +1,4 @@
-public class PascalTriangle {
+public class Main {
     static int factorial(int n) {// Function to calculate factorial of n
         int f;
 
