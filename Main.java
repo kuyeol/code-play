@@ -25,9 +25,9 @@ public class Main {
                 System.out.println("array after reversing is");
                 for(i=0;i<size;i++)
                 {
-                        System.out.print(arr[i]+">");
+                        System.out.print(arr[i]+" -> ");
                     
                 }
-    System.out.println("Done! ");
+    System.out.println("\n Done! ");
     }
 }
