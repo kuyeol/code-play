@@ -5,16 +5,16 @@ public class Main {
     
     public static void main(String args[]) {
 
-       // 스캐너 객체 생성
+       
         Scanner in=new Scanner(System.in);
         
-                int size; //
+                int size; 
                
                 System.out.println("enter size of array");
                 size=in.nextInt();
                 int arr[]=new int[size];
                 System.out.println("enter values in the array");
-        int i;   //
+        int i;   
                 for(i=0;i<size;i++)
                 {
                         arr[i]=in.nextInt();
