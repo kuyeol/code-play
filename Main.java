@@ -2,23 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    Scanner sc = new Scanner(System.in);
-   
-    static int factorial(int n) {
-        // Function to calculate factorial of n
-        int f;
-
-        for (f = 1; n > 1; n--) {
-            f *= n;
-        }
-        return f;
-    }
-
-    static int ncr(int n, int r) {
-        // Calculating nCr
-        return factorial(n) / (factorial(n - r) * factorial(r));
-    }
-
+    
     public static void main(String args[]) {
                         Scanner in=new Scanner(System.in);
                 int size,i;
@@ -41,7 +25,8 @@ public class Main {
                 System.out.println("array after reversing is");
                 for(i=0;i<size;i++)
                 {
-                        System.out.print(arr[i]+" ");
+                        System.out.println(arr[i]+" ");
+                    System.out.println("Done! ");
                 }
     }
 }
