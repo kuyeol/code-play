@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class Main {
 
     Scanner sc = new Scanner(System.in);
-   static int n = sc.nextInt();
-  static  int f = sc.nextInt();
+   
     static int factorial(int n) {
         // Function to calculate factorial of n
         int f;
@@ -21,18 +20,28 @@ public class Main {
     }
 
     public static void main(String args[]) {
-        System.out.println();
-        int n, i, j;
-        n = 5;
-
-        for (i = 0; i <= n; i++) {
-            for (j = 0; j <= n - i; j++) {
-                System.out.print(" ");
-            }
-            for (j = 0; j <= i; j++) {
-                System.out.print(" " + ncr(i, j));
-            }
-            System.out.println();
-        }
+                        Scanner in=new Scanner(System.in);
+                int size,i;
+                System.out.println("enter size of array");
+                size=in.nextInt();
+                int arr[]=new int[size];
+                System.out.println("enter values in the array");
+                for(i=0;i<size;i++)
+                {
+                        arr[i]=in.nextInt();
+                }
+                int temp;
+                for(i=0;i<size/2;i++)
+                {
+                        //swapping elements to obtain reversed array
+                        temp=arr[i];
+                        arr[i]=arr[size-i-1];
+                        arr[size-i-1]=temp;
+                }
+                System.out.println("array after reversing is");
+                for(i=0;i<size;i++)
+                {
+                        System.out.print(arr[i]+" ");
+                }
     }
 }
