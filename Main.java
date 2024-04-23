@@ -27,6 +27,7 @@ public class Main {
                         temp=arr[i];
                         arr[i]=arr[size-i-1];
                         arr[size-i-1]=temp;
+                    System.out.print(arr[i]+temp);
                 }
                 System.out.println("array after reversing is :\n");
                 for(i=0;i<size;i++)
