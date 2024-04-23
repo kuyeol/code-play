@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Main {
 
     Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int f = sc.nextInt();
+   static int n = sc.nextInt();
+  static  int f = sc.nextInt();
     static int factorial(int n) {
         // Function to calculate factorial of n
         int f;
