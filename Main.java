@@ -7,7 +7,7 @@ public class Main {
 
        
         Scanner in=new Scanner(System.in);
-        
+        //사이즈
                 int size; 
                
                 System.out.println("enter size of array");
