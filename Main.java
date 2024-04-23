@@ -4,12 +4,17 @@ public class Main {
 
     
     public static void main(String args[]) {
-                        Scanner in=new Scanner(System.in);
-                int size,i;
+
+       // 스캐너 객체 생성
+        Scanner in=new Scanner(System.in);
+        
+                int size; //
+               
                 System.out.println("enter size of array");
                 size=in.nextInt();
                 int arr[]=new int[size];
                 System.out.println("enter values in the array");
+        int i;   //
                 for(i=0;i<size;i++)
                 {
                         arr[i]=in.nextInt();
@@ -25,7 +30,7 @@ public class Main {
                 System.out.println("array after reversing is");
                 for(i=0;i<size;i++)
                 {
-                        System.out.print(arr[i]+" -> ");
+                        System.out.print(" >"+arr[i]+" >");
                     
                 }
     System.out.println("\n Done! ");
