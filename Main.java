@@ -1,5 +1,12 @@
+import java.util.Scanner;
+
 public class Main {
-    static int factorial(int n) {// Function to calculate factorial of n
+
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int f = sc.nextInt();
+    static int factorial(int n) {
+        // Function to calculate factorial of n
         int f;
 
         for (f = 1; n > 1; n--) {
@@ -8,7 +15,8 @@ public class Main {
         return f;
     }
 
-    static int ncr(int n, int r) {// Calculating nCr
+    static int ncr(int n, int r) {
+        // Calculating nCr
         return factorial(n) / (factorial(n - r) * factorial(r));
     }
 
